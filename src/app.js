@@ -7,5 +7,48 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
+  const randomCard = () => {
+    let naipe = ["♥", "♦", "♣", "♠"];
+    let numbers = [
+      "A",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "J",
+      "Q",
+      "K"
+    ];
+
+    let randomNaipe = naipe[Math.floor(Math.random() * naipe.length)];
+    let randomNumber = numbers[Math.floor(Math.random() * numbers.length)];
+
+    //let miCarta = `${randomNaipe} ${randomNumber} ${randomNaipe}`;
+    //return miCarta;
+
+    let cardHTML = document.querySelector("div");
+    cardHTML.innerHTML = randomNumber;
+  };
+  console.log(randomCard());
+};
+
+/*
+let paloSuperior = document.querySelector("#palo-superior");
+paloSuperior.innerHTML = palosRandom;
+
+let paloInferior = document.querySelector("#palo-inferior");
+paloInferior.innerHTML = palosRandom;
+
+let valorCarta = document.querySelector(".valor-carta");
+valorCarta.innerHTML = valoresRandom;
+*/
+
+
+
+
 };
