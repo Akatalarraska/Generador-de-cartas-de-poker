@@ -1,1 +1,52 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  justify-content: center;
+}
+
+.table {
+  background-color: burlywood;
+  display: grid;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  border: 3px solid black;
+  border-radius: 80px;
+}
+
+.carta {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  border: solid black 1px;
+}
+#top {
+  justify-content: start;
+}
+
+#mid {
+}
+
+#bot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 2px;
+}
