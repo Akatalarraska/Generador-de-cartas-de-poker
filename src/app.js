@@ -48,23 +48,4 @@ window.onload = function() {
 
   //let miCarta = `${randomNaipe} ${randomNumber} ${randomNaipe}`;
   //return miCarta;
-
-  /*
-    let cardHTML = document.querySelector("div");
-    cardHTML.innerHTML = randomNaipe;
-
-    let numberHTML = document.getElementById("mid");
-    numberHTML.innerHTML = randomNumber;
-    */
 };
-
-/*
-let paloSuperior = document.querySelector("#palo-superior");
-paloSuperior.innerHTML = palosRandom;
-
-let paloInferior = document.querySelector("#palo-inferior");
-paloInferior.innerHTML = palosRandom;
-
-let valorCarta = document.querySelector(".valor-carta");
-valorCarta.innerHTML = valoresRandom;
-*/

@@ -29,6 +29,7 @@ button {
   flex-direction: column;
   background-color: whitesmoke;
   width: 60%;
+  height: 100px;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -38,10 +39,17 @@ button {
   border: solid black 1px;
 }
 #top {
-  justify-content: start;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2px;
 }
 
 #mid {
+  font-weight: bold;
+  display: flex;
+  align-content: center;
+  margin-top: 25px;
 }
 
 #bot {
