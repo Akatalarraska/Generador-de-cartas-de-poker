@@ -57,6 +57,7 @@ button {
   bottom: 0;
   right: 0;
   padding: 2px;
+  rotate: 180deg;
 }
 
 .red {
